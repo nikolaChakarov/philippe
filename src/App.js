@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useRef } from "react";
+// import Form from "./components/Jest/Form";
+// import Input from "./components/Jest/Input";
+// import Button from "./components/Jest/Button";
+// import Layout from "./material/Layout";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import Form from "./Form";
+// import Form01 from "./Form01/Form01";
+// import Form02 from "./Form02/Form02";
+import Form03 from "./Form03/Form03";
+
+const App = () => {
+    const senderId = "sender-01";
+    return (
+        // <Form id="form-one">
+        //     <Input type="text" placeholder="user name" id="username" />
+        //     <Input type="number" placeholder="age" id="age" />
+        //     <Button type="submit" text="Send" disabled={true} />
+        // </Form>
+
+        // <Form senderId={senderId} id="test" />
+        // <Layout />
+        // <Form01 />
+        <Form03 />
+    );
+};
 
 export default App;
